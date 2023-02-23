@@ -26,7 +26,6 @@ const Item = (props) => {
        : ''
       }
       <div className="flex gap-x-4"
-        onKeyDown={(e) => {if (e.key === 'Enter') {AddtoCart(item);}}}
         >
         <div 
           className={`${style}`}
